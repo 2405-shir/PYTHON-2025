@@ -1,0 +1,36 @@
+print("Welcome to CALCULATOR FOR JASON")
+name=input("Tell me the first number you want to calculate today    ")
+print('''What calculation would you like t0 do today?
+     option a:add
+      option b:subratct
+      option c:multiply
+      option d:divide      
+''')
+bob=input("Which calculation are you choosing today?Write the option letter in small letters  ")      
+second=input("Tell me the second number you want to calculate with the first number  ")
+print("Your final answer is:")
+if bob=="a":print(float(name)+float(second))
+elif bob=="b":print(float(name)-float(second))
+elif bob=="c":print(float(name)*float(second))
+elif bob=="d":print(float(name)/float(second))
+else: print("You chose invalid number or option girlgirl")
+print("Do you want to calculate again?")
+decision=input("Write yes or no  ")
+while decision=="yes":#loop from 1-16
+   name=input("Tell me the first number you want to calculate today    ")
+   print('''What calculation would you like t0 do today?
+     option a:add
+      option b:subratct
+      option c:multiply
+      option d:divide      
+''')
+   bob=input("Which calculation are you choosing today?Write the option letter in small letters  ")      
+   second=input("Tell me the second number you want to calculate with the first number  ")
+   print("Your final answer is:")
+   if bob=="a":print(float(name)+float(second))
+   elif bob=="b":print(float(name)-float(second))
+   elif bob=="c":print(float(name)*float(second))
+   elif bob=="d":print(float(name)/float(second))
+   else: print("You chose invalid number or option girlgirl")
+   print("Do you want to calculate again?")
+   decision=input("Write yes or no  ")
